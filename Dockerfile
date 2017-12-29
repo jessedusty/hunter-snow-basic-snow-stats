@@ -5,4 +5,4 @@ RUN pip install -r requirements.txt
 COPY server.py ./
 COPY website_parser.py ./
 CMD [ "python", "server.py" ]
-EXPOSE 5000
+EXPOSE 80
